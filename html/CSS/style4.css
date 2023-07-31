@@ -1,0 +1,27 @@
+h1{
+    color: blueviolet;
+}
+h2{
+    color: aqua;
+}
+
+.odd{
+    color: darkmagenta;
+}
+
+.even{
+    color:deeppink
+}
+
+#special{
+    color: lawngreen;
+    background-color: beige;
+    transition: 4sec;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: crimson;
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-vector/watercolor-background_87374-69.jpg?w=740&t=st=1686541396~exp=1686541996~hmac=df944c01ce933e4eed6221d3caf5a43ed58416b580a406a73542506c7d2f2e39");
+}

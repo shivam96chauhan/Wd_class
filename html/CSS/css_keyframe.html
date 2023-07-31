@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes animate--dev{
+            0%{
+                background-color: rgb(13, 114, 237);
+                transform: translateX(100px);
+            }
+            25%{
+                background-color: rgb(243, 141, 7);
+                transform: translateY(500px);
+            }
+            50%{
+                background-color: rgb(11, 139, 237);
+                transform: translateX(1000px);
+            }
+            75%{
+                background-color: black;
+                transform:translateY(1500px) ;
+            }
+            100%{
+                background-color: blueviolet;
+                transform: translateX(1500px);
+            }
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(41, 102, 209);
+            border-radius: 40px;
+             animation-name: animate--dev;
+             animation-duration: 5s;
+             animation-delay: 0.35s;
+             animation-iteration-count: infinite;
+             animation-timing-function: linear;
+        }
+        body{
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "#">
+        <img src = "https://jw-webmagazine.com/wp-content/uploads/2020/03/Kimetsu-no-YaibaDemon-Slayer.jpg">
+
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>
